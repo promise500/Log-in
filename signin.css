@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Nunito+Sans:ital,wght@0,400;1,200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+}
+.seaction{
+    display: flex;
+}
+.img img{
+    width: 486.42px;
+    height: 616px;
+    border-radius: 30px;
+}
+.signin{
+    margin-left: 4rem;
+}
+.back{
+    margin-top: 1rem;
+}
+.back img{
+    width: 6.7px;
+    height: 13.5px;
+    top: 5.25px;
+    left: 9px;
+    color: #112211;
+}
+.back span{
+    margin-left: 5px;
+    color: black;
+}
+.pay{
+    margin-top: 1.25rem;
+    margin-bottom: 20px;
+}
+input{
+    background: #ffffff;
+    border: 1px solid #79747E;
+    border-radius: 5px;
+}
+.input{
+    width: 640px;
+}
+.input span{
+    position: absolute;
+    right: 43.25rem;
+    top: 8.30rem;
+    margin-top: 1.70rem;
+    background: white;
+}
+.input-1 span{
+    position: absolute;
+    right: 45rem;
+    top: 14rem;
+    margin-top: 1.70rem;
+    background: white;
+}
+.input-1 input{
+    width: 308px;
+    height: 50px;
+    margin-top: 1rem;
+    border: 1px solid #112211;
+    color: #1C1B1F;
+    font-size: medium;
+}
+.input-1{
+    
+}
+.input input{
+    width: 640px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #112211;
+    margin-bottom: 1.25rem;
+    color: #1C1B1F;
+    font-size: medium;
+}
+.input-2 input{
+    width: 308px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #112211;
+    margin-top: 1rem;
+    color: #1C1B1F;
+    font-size: medium;
+}
+.input-2 span{
+    position: absolute;
+    right: 26.50rem;
+    top: 15.80rem;
+    background: white;
+}
+.input-0{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.input-3 input{
+    width: 640px;
+    height: 56px;
+    margin-bottom: 1.25rem;
+    color: #1C1B1F;
+    border: 1px solid #112211;
+    font-size: medium;
+}
+.input-3 span{
+    position: absolute;
+    right: 43.50rem;
+    top: 21.25rem;
+    background: white;
+}
+.input-4 input{
+    width: 640px;
+    height: 56px;
+    margin-bottom: 25px;
+    border: 1px solid #112211;
+    color: #1C1B1F;
+    font-size: medium;
+}
+select{
+    width: 640px;
+    height: 56px;
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+    color: #1C1B1F;
+    font-size: medium;   
+}
+.input-4 span{
+    position: absolute;
+    right: 42rem;
+    top: 26.0rem;
+    background: white;
+}
+.bum button{
+    width: 640px;
+    height: 48px;
+    border: 1px solid #112211;
+    gap: 4px;
+    margin-top: 2rem;
+    background-color: #8DD3BB;
+    font-size: large;
+}
+.end{
+    width: 532px;
+    height: 45px;
+    left: 54px;
+    top: 64px;
+    opacity: 75%;
+    margin-top: 1rem;
+}
+.bum a{
+    color: black;
+}
+.bum{
+
+}
+.save span{
+    width: 350px;
+    height: 17px;
+    top: 3.5px;
+    left: 32px;
+    color: black;
+}
+.save input{
+    width: 19.5px;
+    height: 19.5px;
+    border: 1px solid #000000;
+}
+input{
+    border: none solid #fff;
+}

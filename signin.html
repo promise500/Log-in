@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="containter">
+        <div class="seaction">
+            <div class="img">
+                <img src="./images/Rectangle 20.png" alt="">
+            </div>
+            <div class="signin">
+                <div class="logo">
+                    <img src="./images/Group.png" alt="">
+                </div>
+                <div class="back">
+                    <a href="index.html"><img src="./images/Vector (6).png" alt=""> <span>Back</span></a>
+                </div>
+                <div class="pay">
+                    <h1>Add a payment method</h1>
+                    <span>Let’s get you all st up so you can access your personal account.</span>
+                </div>
+                <div class="input">
+                  <span>Card Number</span> <input type="name" id=""  placeholder="Pls your phone number"> 
+                </div>
+                <div class="input-0">
+                    <div class="input-1">
+                        <span class="in">Exp. Date</span>  <input type="text" pattern="[+228][0-9]{8}">
+                    </div>
+                    <div class="input-2">
+                        <span>CVC</span> <input class="required" id="field" type="number" max="999" min="-999" name="cvv"/>
+                    </div>
+                </div>
+                <div class="input-3">
+                    <span>Name on Card</span>  <input type="name" id="Name on Card" placeholder="pls type country  first before typing">
+                </div>
+                <div class="input-4">
+                    <span>Country or Region</span> <select name="country" class="form contorl" id="country">
+                    <option value="AM">Armenia</option>
+                    <option value="GA" label="Ghana">Ghana</option>
+                    <option value="NG" label="Nigeria">Nigeria</option>
+                    <option value="NE" label="Niger">Niger</option>
+                    <option value="BJ" label="Benin">Benin</option>
+                    <option value="France">France</option>
+                </select>
+                </div>
+                <div class="save">
+                    <input type="checkbox" name="save" id="information"> <span><b>Securely save my information for 1-click checkout</b></span>
+                </div>
+                <div class="bum">
+                    <button><a href="https://stripe.com/docs/api/payment_links/payment_links">payment methods </a></button>
+                </div>
+                <span class="end">
+                    <center>By confirming your subscription, you allow The Outdoor 
+                        Inn Crowd Limited to charge your card for this payment and future payments in accordance with their terms. You can always cancel your subscription.</center>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Nunito+Sans:ital,wght@0,400;1,200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+}
+.seaction{
+    display: flex;
+    margin-left: 4rem;
+}
+.imgi img{
+    width: 525px;
+    height: 616px;
+    margin-left: 7rem;
+}
+.login{
+    padding: 1.25rem;
+}
+.pro{
+    margin-top: 2rem;
+}
+.input-10 input{
+    width: 512px;
+    height: 56px;
+    border: 1px solid #79747E;
+    border-radius: 5px;
+    gap: 3rem;
+}
+.input-email{
+    margin-bottom: 1.50rem;
+}
+.input-email span{
+    position: absolute;
+    top: 9.50rem;
+    right: 75.50rem;
+    background: white;
+}
+.input-password span{
+    position: absolute;
+    top: 14.50rem;
+    right: 73.50rem;
+    background: white;
+}
+.input-rem input{
+    width: 16px;
+    height: 16px;
+    top: 3px;
+    left: 3px;
+    color: #112211;
+    margin-top: 1rem;
+}
+.promise{
+    margin-top: 1rem;
+}
+.for{
+    margin-left: 14rem;
+}
+.for a{
+    color: red;
+}
+.input-rem .me{
+    color: #112211;
+}
+.input-rem{
+    margin-top: 1rem;
+    font-size: medium;
+
+}
+.log-1{
+    width: 512px;
+    height: 48px;
+    border: 1px solid #79747E;
+    border-radius: 5px;
+    background-color:  #8DD3BB;
+}
+.sign a{
+    color: red;
+}
+.sign{
+    width: 512px;
+    height: 17px;
+    top: 64px;
+    color: #112211;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.line{
+    margin-top: 30px;
+}
+.line span{
+    position: absolute;
+    top: 31.50rem;
+    background: white;
+    margin-left: 14rem;
+}
+button{
+    margin-top: 3rem;
+    width: 160px;
+    height: 56px;
+    border: 1px solid #8DD3BB;
+    border-radius: 5px;
+    background: #ffffff;
+    pointer-events: fill;
+    cursor: pointer;
+}
+.face:hover{
+    background-color: #3b5998;
+}
+.google:hover{
+    background-color: brown;
+}
+.apple:hover{
+    background-color: rgba(0,0,255,0.3);
+}
+input{
+    padding-left: 25px;
+}
